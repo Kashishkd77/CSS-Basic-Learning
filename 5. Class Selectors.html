@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Class selector</title>
+        <style>
+            
+            /* This "*" is a global selector */
+            *{
+                margin: 10px;
+                padding: 10px;
+            }
+            body {
+                background-color: #4d2d06;
+                font-family: 'Lucida Sans';
+                color: cornsilk;
+                text-align: center;
+                font-size: 50px;
+            }
+            .class-selector1{
+                font-family: 'Times New Roman';
+                background-color: #222;
+                color: #eee;
+            }
+            .class-selector2{
+                background-color: #eee;
+                color: #222
+            }
+        </style>
+    </head>
+    
+    <body>
+        Working with Class selectors is fun!!
+
+        <div class="class-selector1">
+            <p>Primary Class Selector1</p>
+        </div>
+
+        <div class="class-selector2">
+            <p>Secondary Class Selector2</p>
+        </div>
+
+        <div class="class-selector1">
+            <p>Primary Class Selector1 again</p>
+        </div>
+
+        <div class="class-selector2">
+            <p>Secondary Class Selector2 again</p>
+        </div>
+    </body>
+</html>

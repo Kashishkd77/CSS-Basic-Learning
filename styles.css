@@ -1,0 +1,29 @@
+body 
+    { 
+        background-color: #333; 
+        font-family: sans-serif;
+        color:wheat;
+    }
+
+h1 
+    { 
+        font-size: 2em;
+        margin: 0; 
+        padding: 20px;
+        border: dashed;
+        border-radius: 5em;
+        border-width: 1px;
+    }
+
+p 
+    { 
+        font-style: italic;
+        border-top: solid 1px #333; 
+    }
+
+ol
+    { 
+        background-color: orchid;
+        padding: 20px 20px 20px 40px;
+        border-bottom: solid 1px orchid; 
+    }
